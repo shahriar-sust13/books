@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
+
+Route::get('/profile', 'ProfileController@showProfile');
+
+Route::get('/book', 'BookController@showBook');
