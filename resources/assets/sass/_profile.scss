@@ -71,19 +71,24 @@
 	padding: 0px;
 	display: block;
 	overflow: hidden;
+	background-color: #FFFFFF;
 }
 
 .book-container:hover{
 	border-style: solid;
 	border-width: 1px;
-	border-color: #9F27C5;
+	border-color: #ABABAB;
 	border-radius: 0px;
-  	transition: all 0.3s ease 0.3s;
+	background-color: #EEFAFF;
+  	transition: all 0.2s ease 0.2s;
 }
 
 .book-cover-container{
 	padding: 0px;
+	/*
 	background-color: #EEEAE7;
+	*/
+	background-color: transparent;
 }
 
 .book-cover-container img{

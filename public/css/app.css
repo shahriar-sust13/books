@@ -5881,18 +5881,23 @@ body {
   margin-top: 40px;
   padding: 0px;
   display: block;
-  overflow: hidden; }
+  overflow: hidden;
+  background-color: #FFFFFF; }
 
 .book-container:hover {
   border-style: solid;
   border-width: 1px;
-  border-color: #9F27C5;
+  border-color: #ABABAB;
   border-radius: 0px;
-  transition: all 0.3s ease 0.3s; }
+  background-color: #EEFAFF;
+  transition: all 0.2s ease 0.2s; }
 
 .book-cover-container {
   padding: 0px;
-  background-color: #EEEAE7; }
+  /*
+	background-color: #EEEAE7;
+	*/
+  background-color: transparent; }
 
 .book-cover-container img {
   margin-left: auto;
@@ -6052,5 +6057,36 @@ body {
 
 .checkbox {
   padding: 22px; }
+
+.search-bar {
+  padding: 15px 0px 30px 0px; }
+
+.search-bar h3 {
+  display: block;
+  width: 445px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.search-bar form {
+  margin-top: 20px; }
+
+.search-item {
+  height: 70px;
+  margin-top: auto;
+  margin-bottom: auto; }
+
+.search-item select, .search-item button {
+  width: 200px; }
+
+.search-item button {
+  margin-top: 25px; }
+
+.search-result-section {
+  margin-top: 0px;
+  margin-bottom: 40px; }
+
+.search-result-section .section-name-container {
+  margin-left: 90px;
+  width: 950px; }
 
 /*# sourceMappingURL=app.css.map */

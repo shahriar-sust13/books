@@ -26,3 +26,5 @@ Route::get('/register', function () {
 Route::get('/profile', 'ProfileController@showProfile');
 
 Route::get('/book', 'BookController@showBook');
+
+Route::get('/search-page', 'SearchController@showBookList');

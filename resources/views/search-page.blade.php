@@ -3,25 +3,50 @@
 
 @section('content')
 	
-	<div class="profile-section">
-		<div class="cover-container">
-			
-		</div>
-
-		<div class="container-fluid about-me-section">
-			<div class="container">
-				<img src="{{url("images/profile/pic1.jpg")}}" class="img-circle profile-pic">
-				<h3 class="text-center profile-name">Moudud Khan Shahriar</h3>
-				<h5 class="text-center profile-addrs">Upashahar, Sylhet</h5>
+	<div class="container search-bar">
+		<h3>Select Your Address and Book Category!</h3>
+		<form>
+			<div class="row">
+				<div class="search-item col-md-3 col-xs-6">
+					<h4>District:</h4>
+					<select class="form-control district-option ">
+						<option>Sylhet</option>
+						<option>Moulvibazar</option>
+						<option>Sunamganj</option>
+						<option>Habiganj</option>
+					</select>
+				</div>
+				<div class="search-item col-md-3 com-md-offset-2 col-xs-6">
+					<h4>Area:</h4>
+					<select class="form-control upazila-option ">
+						<option>Barlekha</option>
+						<option>Upashahar</option>
+						<option>Akhalia</option>
+						<option>Amborkhana</option>
+					</select>
+				</div>
+				<div class="search-item col-md-3 com-md-offset-2 col-xs-6">
+					<h4>Category:</h4>
+					<select class="form-control upazila-option">
+						<option>Programming</option>
+						<option>Fiction</option>
+						<option>Comics</option>
+						<option>Others</option>
+					</select>
+				</div>
+				<div class="search-item col-md-3 col-xs-6">
+					<button class="btn-lg btn-primary">Apply</button>
+				</div>
 			</div>
-		</div>
+		</form>
+	</div>
 
-		<div class="container book-section">
+	<div class="container search-result-section">
 			<div class="col-xs-12 section-name-container">
-				<h3>Shared Books</h3>
+				<h3>Search Results</h3>
 			</div>
 			<div class="row">
-				<a href = "#" class="col-md-8 col-md-offset-2 book-container">
+				<a href = "{{url('book')}}" class="col-md-8 col-md-offset-2 book-container">
 					<div class="col-md-2 book-cover-container">
 						<img src="{{url("images/books/1.jpg")}}" height="138px">
 					</div>
@@ -65,7 +90,5 @@
 				</a>
 			</div>
 		</div>
-
-	</div>
 
 @endsection

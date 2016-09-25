@@ -6,7 +6,7 @@
 		<div class="container">
 			<div class="col-md-offset-8 col-md-3">
 				<a class="subtle-button btn-lg text-center custom-btn" href="{{ url('share') }}">Share Books</a>
-				<a class="subtle-button btn-lg custom-btn text-center" href="{{ url('share') }}">Borrow Books</a>
+				<a class="subtle-button btn-lg custom-btn text-center" href="{{ url('search-page') }}">Borrow Books</a>
 			</div>
 		</div>
 	</div>
