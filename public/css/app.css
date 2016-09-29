@@ -6085,8 +6085,60 @@ body {
   margin-top: 0px;
   margin-bottom: 40px; }
 
-.search-result-section .section-name-container {
+.section-name-container {
   margin-left: 90px;
   width: 950px; }
+
+.error-msg {
+  margin-top: 50px; }
+
+.error-msg h4 {
+  line-height: 20px;
+  vertical-align: middle;
+  margin-bottom: 0px; }
+
+.notification-box {
+  background-color: #FFFFFF;
+  height: 600px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  padding: 15px;
+  border-style: solid;
+  border-color: #D2D2D2;
+  border-width: 1px;
+  box-shadow: 6px 6px 13px -3px rgba(0, 0, 0, 0.48); }
+
+.inline-block {
+  display: inline-block; }
+
+.notification-container {
+  height: 80px; }
+
+.time-section {
+  height: 80px;
+  line-height: 80px;
+  padding: 0px; }
+
+.time-section h5 {
+  vertical-align: middle;
+  line-height: normal;
+  font-size: 18px; }
+
+.notification-container img {
+  padding: 50% 0px; }
+
+.notification-msg {
+  height: 80px; }
+
+.notification-msg h5 {
+  line-height: 80px;
+  margin: 0px;
+  font-size: 18px; }
+
+.notification-msg a {
+  display: inline; }
+
+.notification-msg a:hover {
+  text-decoration: none; }
 
 /*# sourceMappingURL=app.css.map */

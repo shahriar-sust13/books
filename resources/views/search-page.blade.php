@@ -7,7 +7,7 @@
 		<h3>Select Your Address and Book Category!</h3>
 		<form>
 			<div class="row">
-				<div class="search-item col-md-3 col-xs-6">
+				<div class="search-item col-md-offset-2 col-md-3 col-xs-6">
 					<h4>District:</h4>
 					<select class="form-control district-option ">
 						<option>Sylhet</option>
@@ -25,16 +25,7 @@
 						<option>Amborkhana</option>
 					</select>
 				</div>
-				<div class="search-item col-md-3 com-md-offset-2 col-xs-6">
-					<h4>Category:</h4>
-					<select class="form-control upazila-option">
-						<option>Programming</option>
-						<option>Fiction</option>
-						<option>Comics</option>
-						<option>Others</option>
-					</select>
-				</div>
-				<div class="search-item col-md-3 col-xs-6">
+				<div class="search-item col-md-3 col-md-offset-0 col-xs-offset-2 col-xs-8">
 					<button class="btn-lg btn-primary">Apply</button>
 				</div>
 			</div>
@@ -42,9 +33,22 @@
 	</div>
 
 	<div class="container search-result-section">
-			<div class="col-xs-12 section-name-container">
-				<h3>Search Results</h3>
+			<div class="row">
+				<div class="col-md-12 col-xs-12 section-name-container">
+					<h3>Search Results</h3>
+				</div>
 			</div>
+
+			<!-- Following row will be visible if any Error exists -->
+			<div class="row">
+				<div class="alert alert-danger error-msg col-xs-12 col-md-offset-2 col-md-8">
+					<h4 class="text-center">
+						<strong>Error: </strong> District and Area not matched!
+					</h4>
+				</div>
+			</div>
+
+			<!-- Following row will be visible if no Error exists -->
 			<div class="row">
 				<a href = "{{url('book')}}" class="col-md-8 col-md-offset-2 book-container">
 					<div class="col-md-2 book-cover-container">

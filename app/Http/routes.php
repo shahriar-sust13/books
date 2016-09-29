@@ -28,3 +28,5 @@ Route::get('/profile', 'ProfileController@showProfile');
 Route::get('/book', 'BookController@showBook');
 
 Route::get('/search-page', 'SearchController@showBookList');
+
+Route::get('/notification', 'NotificationController@showNotification');
