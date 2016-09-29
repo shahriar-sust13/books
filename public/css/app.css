@@ -5859,9 +5859,16 @@ body {
   color: #D6D3D1;
   margin-top: 2px; }
 
+.profile-body {
+  margin-top: 60px;
+  margin-bottom: 35px; }
+
+.profile-nav-section {
+  font-size: 20px; }
+
 .book-section {
-  margin-top: 40px;
-  margin-bottom: 40px; }
+  margin-top: 25px;
+  margin-bottom: 25px; }
 
 .section-name-container {
   border-style: none none solid none;
@@ -5920,6 +5927,27 @@ body {
   border-color: #A19389;
   margin-top: 14px;
   padding: 5px; }
+
+.pagination-section {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0px; }
+
+.pagination-section ul {
+  margin-top: 35px;
+  margin-bottom: 0px; }
+
+.info-section {
+  margin-top: 40px;
+  margin-bottom: 0px; }
+
+.info-section h4 {
+  margin-bottom: 5px;
+  margin-top: 5px; }
+
+.info-section address {
+  margin-top: 15px;
+  font-size: 16px; }
 
 .book-header-section {
   height: 350px;
