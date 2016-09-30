@@ -26,11 +26,7 @@
 
 			<div class="tab-content">
 				<div id="books" class="container book-section tab-pane fade in active">
-				<!--
-					<div class="col-xs-12 section-name-container">
-						<h3>Shared Books</h3>
-					</div>
-				-->
+
 					<div class="row">
 						<a href = "#" class="col-md-8 col-md-offset-2 book-container">
 							<div class="col-md-2 book-cover-container">

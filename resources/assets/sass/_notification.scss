@@ -1,58 +1,57 @@
 
-.notification-box{
-	background-color: #FFFFFF;
-	height: 600px;
-	margin-top: 60px;
+.notification-body{
+	margin-top: 40px;
 	margin-bottom: 40px;
-	padding: 15px;
-	border-style: solid;
-	border-color: #D2D2D2;
-	border-width: 1px;
-	-webkit-box-shadow: 6px 6px 13px -3px rgba(0,0,0,0.48);
-	-moz-box-shadow: 6px 6px 13px -3px rgba(0,0,0,0.48);
-	box-shadow: 6px 6px 13px -3px rgba(0,0,0,0.48);
-
 }
 
-.inline-block{
-	display: inline-block;
+.notification-nav-section{
+	font-size: 20px;
 }
 
-.notification-container{
+.request-section, .news-section{
+	margin-top: 30px;
+	padding-left: 0px;
+}
+
+.notification-bar{
 	height: 80px;
+	padding: 20px;
+	margin-top: 10px;
+	border-style: solid none solid none;
+	border-width: 1px 0px 1px 0px;
+	border-color: #C1BCBC;
+	background-color: #FCFCFC;
 }
 
-.time-section{
-	height: $notification-height;
-	line-height: $notification-height;
-	padding: 0px;
+.notification-bar img{
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.time-section h5{
-	vertical-align: middle;
-	line-height: normal;
-	font-size: 18px;
-}
-
-
-.notification-container img{
-	padding: 50% 0px;
-}
-
-.notification-msg{
-	height: $notification-height;
-}
-
-.notification-msg h5{
-	line-height: $notification-height;
+.notification-bar h5{
+	line-height: 40px;
 	margin: 0px;
 	font-size: 18px;
 }
 
-.notification-msg a{
-	display: inline;
+.notification-bar a:hover{
+	text-decoration: none;
 }
 
-.notification-msg a:hover{
-	text-decoration: none;
+.notification-text{
+	margin: 0px;
+	padding: 0px;
+}
+
+.notification-btn{
+	padding-top: 2px;
+}
+
+.notification-btn a{
+	width: 90px;
+	margin-left: 10px;
+}
+
+.unread-notification{
+	background-color: #EEEEEE;
 }

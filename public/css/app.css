@@ -6125,48 +6125,50 @@ body {
   vertical-align: middle;
   margin-bottom: 0px; }
 
-.notification-box {
-  background-color: #FFFFFF;
-  height: 600px;
-  margin-top: 60px;
-  margin-bottom: 40px;
-  padding: 15px;
-  border-style: solid;
-  border-color: #D2D2D2;
-  border-width: 1px;
-  box-shadow: 6px 6px 13px -3px rgba(0, 0, 0, 0.48); }
+.notification-body {
+  margin-top: 40px;
+  margin-bottom: 40px; }
 
-.inline-block {
-  display: inline-block; }
+.notification-nav-section {
+  font-size: 20px; }
 
-.notification-container {
-  height: 80px; }
+.request-section, .news-section {
+  margin-top: 30px;
+  padding-left: 0px; }
 
-.time-section {
+.notification-bar {
   height: 80px;
-  line-height: 80px;
-  padding: 0px; }
+  padding: 20px;
+  margin-top: 10px;
+  border-style: solid none solid none;
+  border-width: 1px 0px 1px 0px;
+  border-color: #C1BCBC;
+  background-color: #FCFCFC; }
 
-.time-section h5 {
-  vertical-align: middle;
-  line-height: normal;
-  font-size: 18px; }
+.notification-bar img {
+  margin-left: auto;
+  margin-right: auto; }
 
-.notification-container img {
-  padding: 50% 0px; }
-
-.notification-msg {
-  height: 80px; }
-
-.notification-msg h5 {
-  line-height: 80px;
+.notification-bar h5 {
+  line-height: 40px;
   margin: 0px;
   font-size: 18px; }
 
-.notification-msg a {
-  display: inline; }
-
-.notification-msg a:hover {
+.notification-bar a:hover {
   text-decoration: none; }
+
+.notification-text {
+  margin: 0px;
+  padding: 0px; }
+
+.notification-btn {
+  padding-top: 2px; }
+
+.notification-btn a {
+  width: 90px;
+  margin-left: 10px; }
+
+.unread-notification {
+  background-color: #EEEEEE; }
 
 /*# sourceMappingURL=app.css.map */
