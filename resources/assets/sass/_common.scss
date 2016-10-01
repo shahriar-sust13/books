@@ -2,6 +2,25 @@ body{
   background: url(../images/bg.png);
   font-family: $primary-font;
 }
+
+.main-wrapper{
+  min-height: 100vh;
+  position: relative;
+}
+
+.body-wrapper{
+  padding-bottom: 70px;
+}
+
+.foot-wrapper{
+
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+
+}
+
 .grid-container-wrapper {
   min-height: 1000px;
   background: white;
